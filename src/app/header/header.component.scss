@@ -1,0 +1,117 @@
+.contents {
+    padding: 100px 0 0px;
+}
+
+.contents h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 70px;
+}
+
+.menu-button {
+    position: absolute;
+    z-index: 1000;
+    width: 60px;
+    height: 42px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    background: transparent;
+    top: 15px;
+    right: 0;
+    line-height: 42px;
+    text-align: center;
+}
+
+.logo-menu a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.logo-menu {
+    padding: 15px 15px;
+}
+
+.fixed-top {
+   top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.header-div{
+    background-image: url("/assets/img/london-skyline-night-other-health.png");
+    height: 668px;
+}
+
+.menu-bg .menu-button {
+    color: #333;
+}
+
+.menu-button {
+    font-size: 30px;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+}
+
+.header {
+    display: inline-block; 
+    width: 100%;
+  }
+  .playerOne {
+    float: right;
+  }
+  .playerTwo {
+    float: left;
+  }
+.temp-div{
+    color: white;
+    margin-left: 10px;
+}  
+
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+h1:before{
+    position: relative;
+    content: "";    
+    width: 15%;    
+    left: 42%;    
+    display: block;    
+    margin-bottom: 10px;    
+    margin-top: 10px;    
+    border-bottom: 1px solid;
+}
+.container{
+    background-color:transparent !important;
+}
+
+input{
+    border:none;
+    background-color: transparent;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  
+  .fa-user-circle-o{
+    color: gray;
+  }
+
+  .input-div{
+    border: 1px solid #DDD;width: 300px;background-color: white;border-radius: 11px;margin: auto;
+  }
+
+.input-div input{
+    border: none;width: 254px;
+}

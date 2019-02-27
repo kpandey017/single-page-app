@@ -1,0 +1,42 @@
+<div class="container footer-div">
+    <div class="row justify-content-md-center">
+      <div class="col-md-4">
+          <h3 class="articles">articles</h3>
+        <ul>
+      
+            <li *ngFor="let article of articles">
+                {{article.title}} <br/>
+                <span class="articles-detail">{{article.detail}} &nbsp;&nbsp;  |&nbsp;&nbsp;    {{article.date}}</span>
+
+            </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+          <h3>about us</h3><br>
+        <p>
+          London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times.At its centre stand the imposing houses of Parliament, the iconic 'Big Ben' clock tower and Westminster Abbey, sites of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank culture complex, and the entire city.
+        </p>
+        </div>
+        <div class="col-md-4">
+          <h3>newsletter</h3>
+          <br>
+          <p>Get updates about new tours, travel tips, photo guides and more !</p>
+          <input class="contact-form" type="text" placeholder="Name" ><br>
+          <input class="contact-form" type="text"  placeholder="E-mail"><br>
+          <button class="contact-form-submit">
+            Send
+          </button>
+          </div>
+    </div>
+</div>
+
+<div class="container footer-copyright">
+    <div class="row justify-content-md-center">
+        <div class="col-md-12">
+          <div class="contents text-center">
+            <p style="margin-top: 40px;">&copy; Copyright 2016 by Andrei Rotariu</p>
+            </div>
+          </div>
+        </div>
+
+</div>

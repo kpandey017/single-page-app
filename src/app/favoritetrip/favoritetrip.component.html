@@ -1,0 +1,32 @@
+
+<div class="container scrollable-div" >
+  <div class="row justify-content-md-center">
+      <div class="col-md-12">
+          <div class="contents text-center" style="font-size: 35px;">
+            Select your <span class="text-line">favorite trip</span>
+          </div>
+      </div>
+      <div class="container1">
+        <div class="img-container">
+        <div class="dsrow" >
+            <div class="dscolumn image-container" *ngFor="let trip of allTrips">
+              <img [src]="trip.img">
+              
+              <div class="top-left">
+                {{trip.title}}
+                <hr *ngIf="trip.action !=undefined"/>
+                <p style="width: 240px;">{{trip.details}}</p>
+            <button class="book-now" *ngIf="trip.action !=undefined" >
+                {{trip.action}}
+              </button>
+              </div>
+            
+            </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</div>
+<div class="container" style="height:40px">
+
+</div>

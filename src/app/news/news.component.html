@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-md-12">
+            <div class="contents text-center" style="font-size: 35px;">
+                Latest news from  <span class="text-line">London Bog</span>
+            </div>
+          
+        </div>
+        <div class="container1">
+          <div class="row header">
+              <div class="blog-post previous">
+                  <img src="/assets/img/Blog post 1/next.svg">
+              </div>
+            <div class="blog-post" *ngFor="let post of posts">
+                <div class="header">
+                    <div class="blog-post">
+                        <img [src]="post.img">
+                    </div>
+                    <div class="blog-post blog-item-wrapper">
+                        <h3>{{post.title}}</h3>
+                        <p>{{post.date}}</p><br/><br/>
+                        <p>{{post.detail}}</p><br/>
+
+                        <img [src]="post.authorImg"><span class="author-img">{{post.author}}</span>
+                    </div>
+                  
+                </div>               
+                
+            </div>
+            <div class="blog-post next">
+                <img src="/assets/img/Blog post 2/next.svg">
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

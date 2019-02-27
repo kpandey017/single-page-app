@@ -1,0 +1,29 @@
+<div class="container">
+    <br><br>
+    <div class="row justify-content-md-center">
+        <div class="col-md-12">
+            <div class="contents text-center">
+              <p>
+                  <b>Search for your favourite:</b> restaurant, museum, hotel, attractions
+              </p>
+            </div>
+    
+        </div>
+        <br><br>
+      <div class="" style="padding: 5px;">
+        <div class=" col-md-2 col-sm-2 item-boxes"  [ngClass]="{'active' : tab.active==true}" *ngFor="let tab of tabs" id="drop-box">
+          <img [src]="tab.img">
+          <h3>
+            {{tab.title}}
+          </h3>
+          <p>
+              <b>{{tab.subtitle}}:</b>
+          </p>
+          <p>
+            {{tab.detail}}
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>

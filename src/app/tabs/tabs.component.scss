@@ -1,0 +1,25 @@
+.item-boxes:hover,.active {
+
+    background: #fff;
+    box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgb(35, 135, 245);
+    color: white;
+    outline: 6px solid rgb(35, 135, 245);
+    border: 1px solid;
+
+}
+
+.item-boxes {
+
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    height: 250px;
+
+}
+
+
